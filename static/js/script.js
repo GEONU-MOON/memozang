@@ -64,10 +64,10 @@ function createMemoHTML(index, title, text) {
                         <textarea id="edit_text_${index}" class="form-control" style="display:none;">${text}</textarea>
                     </h6>
                     <span class="badge badge-info">                       
-                        <a href="#" class="card-link" id="edit_button_${index}" onclick="editMemo(${index})">수정</a>
+                       <a href="javascript:void(0)" class="card-link" id="edit_button_${index}" onclick="editMemo(${index})">수정</a>
                     </span>
                     <span class="badge badge-danger">
-                        <a href="#" class="card-link" id="delete_button_${index}" onclick="deleteMemo(${index})">삭제</a>
+                       <a href="javascript:void(0)" class="card-link" id="delete_button_${index}" onclick="deleteMemo(${index})">삭제</a>
                     </span>
                     <span id="save_cancel_buttons_${index}" style="display:none;">
                         <button class="btn btn-success btn-sm" onclick="saveEdit(${index})">저장</button>
